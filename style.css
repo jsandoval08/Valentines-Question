@@ -1,0 +1,67 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+    background: rgb(237, 240, 91);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    overflow: hidden;
+    background-image: url("Images.webp");
+    background-color: #a4da11;
+  }
+  
+  .heart {
+    width: 50px;
+    height: 50px;
+    background: rgb(48, 209, 101);
+    transform: rotate(45deg);
+    position: absolute;
+    left: 200px;
+    top: 200px;
+  }
+  
+  .heart .left {
+    content: '';
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    position: absolute;
+    left: -25px;
+    top: 0px;
+  }
+  
+  .heart .right {
+    content: '';
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgb(247, 235, 130);
+    position: absolute;
+    left: 0px;
+    top: -25px;
+  }
+  
+  h1, h2 {
+    color: rgb(0, 0, 0);
+    position: relative;
+    width: 150px;
+    length: 70px;
+    text-decoration: 'none';
+  }
+  
+  .panel {
+    z-index: 1;
+    padding: 40px;
+    background: rgba(243, 234, 234, 0.856);
+    box-shadow: 0 8px 32px 0 rgb(241, 10, 53);
+    backdrop-filter: blur( 10.5px );
+    -webkit-backdrop-filter: blur( 10.5px );
+    border-radius: 20px;
+  }
+
+ 
